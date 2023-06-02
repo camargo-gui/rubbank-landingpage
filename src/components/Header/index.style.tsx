@@ -1,16 +1,21 @@
 import styled from 'styled-components'
-import "./style.css"
+import "./import.css"
 
 export const HeaderGeral = styled.div`
-    margin-top: 0.5%;
+    z-index:5;
+    padding-top: 0.5%;
     display: flex;
+    background-color:white;
+    width:100%;
+    position:sticky;
+    top:0;
     justify-content: space-between;
 `
 
 export const LogoHeader = styled.img`
     height: 70px;
     width: 70px;
-    margin-left: 10%;
+    margin-left: 12%;
 
     @media (max-width:800px) {
             display: none;
