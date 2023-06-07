@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
+
 export const Background = styled.div`
         display:flex;
         width:100%;
-        position:absolute;
         height:750px;
         background-color:#6E7ADE;
 
@@ -21,14 +21,14 @@ export const YellowMan = styled.img`
     @media (max-width:600px){
         display:none;
     }
-
+/* 
     @media (min-width:600px) and (max-width:500px){
         display:none;
         width:300px;
         height:490px;
         margin-right:10%;
         margin-left:0;
-    }
+    } */
 
     @media(min-width:1200px) and (max-width:1600px){
         width:600px;
@@ -78,7 +78,7 @@ export const DivTextos = styled.div`
 
 `
 
-export const DivConteudo  = styled.div`
+export const DivConteudo = styled.div`
     margin-top:5%;
     display:flex;
     align-items:center;
@@ -156,6 +156,8 @@ export const Square = styled.div`
     position:relative;
     text-align:center;
 
+  
+
     @media (max-width:600px){
         margin:0 auto;
         margin-top:10%;
@@ -178,7 +180,7 @@ export const Square = styled.div`
 
 
 
-export const SquareText =  styled.p`
+export const SquareText = styled.p`
     font-size:40px;
     margin:2%;
     font-family: 'Inter', sans-serif;

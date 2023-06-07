@@ -7,6 +7,7 @@ import { Bank, BodyHome, BodyTexts, Icons, Rub, SmallIcon, Subtitle, TextIcon, T
 import DownloadButton from "../DownloadButton"
 
 
+
 export default function Home() {
 
     const width = window.screen.width
@@ -41,6 +42,7 @@ export default function Home() {
                     </BodyTexts>
                     
                 </BodyHome>
+
     
             </div>
             )

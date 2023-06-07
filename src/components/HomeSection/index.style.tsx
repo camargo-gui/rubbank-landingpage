@@ -1,12 +1,15 @@
 import styled from 'styled-components'
 
 export const BodyHome = styled.div`
-    padding-top:3%;
     width: 100%;
     z-index:0;
     display: flex;
     height: 750px;
     background-image: linear-gradient(to right, #312C86, #121827);
+
+    @media (max-width: 500px){
+        padding-top:3%;
+    }
 
     @media (min-width:800px) and (max-width:1100px) {
         height: 700px;
@@ -22,12 +25,15 @@ export const BodyHome = styled.div`
         justify-content:center;
         height: 490px;
         margin-top:-15%;
+        padding-top: 5%;
     }
 
     @media (min-width:501px) and (max-width:900px) {
         justify-content:center;
         height: 768px;
     }
+
+ 
 `
 
 export const BodyTexts = styled.div`

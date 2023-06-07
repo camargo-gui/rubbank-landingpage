@@ -4,6 +4,9 @@ import './App.css';
 import Header from './components/Header';
 import Home from './components/HomeSection';
 import CaixinhasSection from './components/CaixinhasSection';
+import VantagensSection from './components/VantagensSection';
+import SobreNosSection from './components/SobreNosSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
       <Header></Header>
       <Home></Home>
       <CaixinhasSection/>
+      <VantagensSection/>
+      <SobreNosSection/>
+      <Footer/>
     </div>
 
   );
