@@ -5,6 +5,7 @@ import homemmobile from '../../images/homem-celular-mobile.jpg'
 
 export const Background = styled.div`
     background-image: url(${homem});
+    /* background-repeat: no-repeat; */
     backdrop-filter: blur(50px);
     display: flex;
     flex-direction: column;

@@ -57,6 +57,7 @@ const StyledButton = styled.button`
      
       @media(min-width:1000px) and (max-width:1100px){
          margin-left:-20% !important;
+         margin-top:-5% !important;
       }
 
       @media(min-width:1100px) and (max-width:1300px){
@@ -65,6 +66,7 @@ const StyledButton = styled.button`
       }
 
      @media (min-width:1300px) and (max-width:1600px){
+      margin-top: -5% !important;
       margin-left: -20% !important;
      }
 

@@ -60,6 +60,12 @@ export const BodyTexts = styled.div`
         margin:0 auto ;
     }
 
+    @media (min-width:500px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 `
 
 export const Title = styled.div`
@@ -99,7 +105,7 @@ export const Title = styled.div`
         margin-left:30%;
     }
 
-    @media (min-width:1900px) and (max-width:2090px){
+    @media (min-width:1900px) and (max-width:1990px){
         margin-left:0%;
     }
 
@@ -258,7 +264,7 @@ export const Subtitle = styled.p`
         margin-left:35%
     }
 
-    @media (min-width:1900px) and (max-width:2090px){
+    @media (min-width:1900px) and (max-width:1990px){
         margin-left:0%;
     }
 

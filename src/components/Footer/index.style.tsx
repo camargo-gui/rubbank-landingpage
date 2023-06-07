@@ -16,7 +16,7 @@ export const Rubbank = styled.p`
     @media (max-width:500px){
         font-size: 1.0rem;
     }
-    @media (min-width:500px)and(max-width:800px){
+    @media (min-width:500px) and (max-width:800px){
         font-size: 1.25rem;
     }
 `
@@ -29,7 +29,11 @@ export const Disponivel = styled.p`
     @media (max-width:500px){
         font-size: 0.75rem;
     }
-    @media (min-width:500px)and(max-width:800px){
+    @media (min-width:500px) and (max-width:700px){
+        font-size: 1.25rem;
+    }
+
+    @media (min-width:700px) and (max-width:900px){
         font-size: 1.25rem;
     }
 
@@ -40,7 +44,7 @@ export const Logo = styled.img`
     @media (max-width:500px){
         height:20px;
     }
-    @media (min-width:500px)and (max-width:800px){
+    @media (min-width:500px) and (max-width:800px){
         height: 30px;
     }
 `

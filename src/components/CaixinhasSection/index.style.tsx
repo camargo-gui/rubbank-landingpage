@@ -14,7 +14,7 @@ export const Background = styled.div`
         @media (max-width:500px){
             padding-bottom: 5%;;
         }
-        @media (min-width:1900px) and (max-width:2090px){
+        @media (min-width:1900px) and (max-width:2990px){
             height: auto;
             padding-bottom: 0%;
         }
@@ -22,6 +22,7 @@ export const Background = styled.div`
             height: auto;
             padding-bottom: 5%;
         }
+
 `
 
 export const YellowMan = styled.img`
@@ -59,7 +60,7 @@ export const YellowMan = styled.img`
         margin-right:20%;
     }
 
-    @media (min-width:1900px) and (max-width:2090px){
+    @media (min-width:1900px) and (max-width:1990px){
         margin-right:7%;
         width:600px;
         margin-left:0%;
@@ -86,7 +87,7 @@ export const Titulo = styled.span`
         font-size:90px
     }
 
-    @media (min-width:1900px) and (max-width:2090px){
+    @media (min-width:1900px) and (max-width:1990px){
         font-size:90px
     }
 `
@@ -122,12 +123,12 @@ export const DivConteudo = styled.div`
         margin-top:2%;
         width:70%;
     }
-    @media (min-width:1900px) and (max-width:2090px){
+    @media (min-width:1900px) and (max-width:1990px){
         margin-top:0%;
         width:70%;
     }
 
-    @media (min-width:1900px) and (max-width:2090px){
+    @media (min-width:1900px) and (max-width:1990px){
         align-items: center;
         justify-content:center;
     }
@@ -174,7 +175,7 @@ export const AboutCaixinhas = styled.p`
         margin:0;
         font-size:45px
     }
-    @media (min-width:1900px) and (max-width:2090px){
+    @media (min-width:1900px) and (max-width:1990px){
         font-size:45px;
         width:80%;
         margin-left:0%;
@@ -215,7 +216,7 @@ export const Square = styled.div`
         margin-top:2%;
     }
 
-    @media (min-width:1900px) and (max-width:2090px){
+    @media (min-width:1900px) and (max-width:1990px){
         width: 80%;
         margin: 0 auto;
         padding: 1%;
@@ -242,7 +243,7 @@ export const SquareText = styled.p`
         font-size:60px;
     }
 
-    @media (min-width:1900px) and (max-width:2090px){
+    @media (min-width:1900px) and (max-width:1990px){
         font-size:60px;
     }
 `
@@ -266,7 +267,7 @@ export const SquareTextBold = styled.span`
         font-size:60px;
     }
 
-    @media (min-width:1900px) and (max-width:2090px){
+    @media (min-width:1900px) and (max-width:1990px){
         font-size:60px;
     }
 `
