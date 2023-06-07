@@ -59,4 +59,9 @@ export const DivLogos = styled.div`
     @media (min-width:500px)and(max-width:1100px){
         width:50%;
     }
+
+    @media (min-width:1900px) and (max-width:2090px){
+        width:25%;
+    }
+    
 `

@@ -14,8 +14,12 @@ function App() {
       <Header></Header>
       <Home></Home>
       <CaixinhasSection/>
-      <VantagensSection/>
-      <SobreNosSection/>
+      <div id='vantagens'>
+        <VantagensSection/>
+      </div>
+      <div id='sobrenos'>
+        <SobreNosSection/>
+      </div>
       <Footer/>
     </div>
 

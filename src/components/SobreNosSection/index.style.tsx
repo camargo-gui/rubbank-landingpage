@@ -70,6 +70,10 @@ export const Texto = styled.p`
         margin-bottom: 8%;
         font-size:13px;
     }
+
+    @media (min-width:1900px) and (max-width:2090px){
+        font-size:34px;
+    }
 `
 
 export const Botao = styled.div`

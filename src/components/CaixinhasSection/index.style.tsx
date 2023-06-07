@@ -11,8 +11,12 @@ export const Background = styled.div`
             height:490px !important;
         }
 
-        @media (max-width:400px){
+        @media (max-width:500px){
             padding-bottom: 5%;;
+        }
+        @media (min-width:1900px) and (max-width:2090px){
+            height: auto;
+            padding-bottom: 0%;
         }
 `
 
@@ -50,6 +54,12 @@ export const YellowMan = styled.img`
     @media (min-width:2000px){
         margin-right:20%;
     }
+
+    @media (min-width:1900px) and (max-width:2090px){
+        margin-right:7%;
+        width:600px;
+        margin-left:0%;
+    }
   
 `
 
@@ -69,6 +79,10 @@ export const Titulo = styled.span`
     }
 
     @media (min-width:2000px){
+        font-size:90px
+    }
+
+    @media (min-width:1900px) and (max-width:2090px){
         font-size:90px
     }
 `
@@ -104,6 +118,16 @@ export const DivConteudo = styled.div`
         margin-top:2%;
         width:70%;
     }
+    @media (min-width:1900px) and (max-width:2090px){
+        margin-top:0%;
+        width:70%;
+    }
+
+    @media (min-width:1900px) and (max-width:2090px){
+        align-items: center;
+        justify-content:center;
+    }
+    
 
 
 `
@@ -146,6 +170,12 @@ export const AboutCaixinhas = styled.p`
         margin:0;
         font-size:45px
     }
+    @media (min-width:1900px) and (max-width:2090px){
+        font-size:45px;
+        width:80%;
+        margin-left:0%;
+        margin-top:0%;
+    }
 `
 
 export const Square = styled.div`
@@ -180,6 +210,12 @@ export const Square = styled.div`
         margin:0;
         margin-top:2%;
     }
+
+    @media (min-width:1900px) and (max-width:2090px){
+        width: 80%;
+        margin: 0 auto;
+        padding: 1%;
+    }
 `
 
 
@@ -201,6 +237,10 @@ export const SquareText = styled.p`
         z-index:4;
         font-size:60px;
     }
+
+    @media (min-width:1900px) and (max-width:2090px){
+        font-size:60px;
+    }
 `
 
 export const SquareTextBold = styled.span`
@@ -219,6 +259,10 @@ export const SquareTextBold = styled.span`
 
     @media (min-width:2000px){
         z-index:4;
+        font-size:60px;
+    }
+
+    @media (min-width:1900px) and (max-width:2090px){
         font-size:60px;
     }
 `

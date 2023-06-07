@@ -74,6 +74,10 @@ const StyledButton = styled.button`
       height:120px
       }
      
+      @media (min-width:1900px) and (max-width:1999px){
+         margin-top:0% !important;
+         margin-left: -35% !important; 
+      }
  
 
 

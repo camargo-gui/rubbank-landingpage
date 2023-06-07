@@ -1,5 +1,6 @@
 import logoRoxa from "../../images/logoRoxa.png"
 import { HeaderGeral, Hook, HookGroup, LogoHeader } from "./index.style"
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 function Header() {
     return (
@@ -7,8 +8,13 @@ function Header() {
             <LogoHeader src={logoRoxa}></LogoHeader>
             <HookGroup>
                 <Hook>Download</Hook>
-                <Hook> Vantagens</Hook>
-                <Hook>Sobre nós</Hook>
+                <Link to="vantagens">
+                    <Hook> Vantagens</Hook>
+                </Link>
+                <Link to="sobrenos">
+                    <Hook>Sobre nós</Hook>
+                </Link>
+                
             </HookGroup>
         </HeaderGeral >
 

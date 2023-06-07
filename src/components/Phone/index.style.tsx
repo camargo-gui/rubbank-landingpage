@@ -38,6 +38,12 @@ export const PhoneCompleto = styled.div`
     @media (min-width:1100px) and (max-width:1600px) {
         margin-top:3%;
     }
+
+    @media (min-width:1900px) and (max-width:2090px){
+        margin-top:3%;
+        margin-left:12% ;
+        width: 20%;
+    }
 `
 
 export const PhoneImg = styled.img`

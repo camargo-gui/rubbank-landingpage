@@ -41,12 +41,21 @@ export const BodyTexts = styled.div`
     position: relative;
     margin-left: -8%;
     margin-top: -5%;
+   
+
+    @media (min-width:1900px) and (max-width:2090px){
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     @media (max-width:500px){
         margin-left: -18% !important;
         margin-top: -2% !important;
         margin:0 auto ;
     }
+
 `
 
 export const Title = styled.div`
@@ -85,6 +94,14 @@ export const Title = styled.div`
     @media (min-width:2000px){
         margin-left:30%;
     }
+
+    @media (min-width:1900px) and (max-width:2090px){
+        margin-left:0%;
+    }
+
+    @media (min-width:380px) and (max-width:400px) {
+        margin-left: -15%;
+    }
 `
 
 export const Rub = styled.h1`
@@ -112,6 +129,10 @@ export const Rub = styled.h1`
 
     @media (min-width:2000px){
         font-size: 250px;
+    }
+
+    @media (min-width:380px) and (max-width:400px) {
+        font-size: 70px;
     }
 
 
@@ -144,6 +165,11 @@ export const Bank = styled.h1`
     @media (min-width:2000px){
         font-size: 250px;
     }
+
+    @media (min-width:380px) and (max-width:400px) {
+        font-size: 70px;
+    }
+
 
 
 `
@@ -225,6 +251,10 @@ export const Subtitle = styled.p`
     @media (min-width:2000px){
         font-size: 60px;
         margin-left:35%
+    }
+
+    @media (min-width:1900px) and (max-width:2090px){
+        margin-left:0%;
     }
 
     
