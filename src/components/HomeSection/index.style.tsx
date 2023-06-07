@@ -114,6 +114,7 @@ export const Rub = styled.h1`
         font-size: 250px;
     }
 
+
     
 
 `
@@ -163,7 +164,7 @@ export const Subtitle = styled.p`
         font-size: 20px !important;
         width: 80%;
         margin-left: 0% !important;
-        margin-top: 128% !important;
+        margin-top: 125% !important;
         margin:0 auto;
         position: absolute;
     }

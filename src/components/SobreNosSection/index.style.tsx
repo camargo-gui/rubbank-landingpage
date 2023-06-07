@@ -31,16 +31,19 @@ export const Titulo = styled.p`
     margin-top:5%;
     margin-bottom:0%;
 
-    @media (max-width:350px){
-        font-size:40px;
+  
+
+
+    @media (max-width:800px){
+        font-size:65px;
     }
 
-    @media (min-width:350px)and(max-width:500px){
+    @media (max-width:500px){
         font-size:50px;
     }
 
-    @media (min-width:500px)and(max-width:800px){
-        font-size:65px;
+    @media (max-width:350px){
+        font-size:40px;
     }
 `
 
@@ -54,17 +57,18 @@ export const Texto = styled.p`
     margin-bottom: 5%;
     text-shadow: 0.1em 0.1em 0.2em black;
 
-    @media (max-width:350px){
-        margin-bottom: 8%;
-        font-size:13px;
+    @media (max-width:800px){
+        font-size:22px;
     }
 
-    @media (min-width:350px)and(max-width:500px){
+    @media (max-width:500px){
         margin-bottom: 8%;
         font-size:16px;
     }
-    @media (min-width:500px)and(max-width:800px){
-        font-size:22px;
+
+    @media (max-width:350px){
+        margin-bottom: 8%;
+        font-size:13px;
     }
 `
 
@@ -79,21 +83,20 @@ export const Botao = styled.div`
     margin:0 auto;
     border-radius: 0.575rem ;
 
+    @media (max-width:1100px){
+        font-size:45px;
+    }
+
+    @media (max-width:800px){
+        font-size:30px;
+    }
+
+    @media (max-width:500px){
+        width:70%;
+        font-size:30px;
+    }
     @media (max-width:350px){
         width:70%;
         font-size:30px;
-    }
-
-    @media (min-width:351px)and(max-width:500px){
-        width:70%;
-        font-size:30px;
-    }
-
-    @media (min-width:500px)and (max-width:800px){
-        font-size:30px;
-    }
-
-    @media (min-width:800px)and(max-width:1100px){
-        font-size:45px;
     }
 `

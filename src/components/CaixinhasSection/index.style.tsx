@@ -10,6 +10,10 @@ export const Background = styled.div`
         @media(max-width:600px){
             height:490px !important;
         }
+
+        @media (max-width:400px){
+            padding-bottom: 5%;;
+        }
 `
 
 export const YellowMan = styled.img`
@@ -184,6 +188,26 @@ export const SquareText = styled.p`
     font-size:40px;
     margin:2%;
     font-family: 'Inter', sans-serif;
+    color:white;
+
+
+
+    @media (max-width:600px){
+        z-index:4;
+        font-size:26px;
+    }
+
+    @media (min-width:2000px){
+        z-index:4;
+        font-size:60px;
+    }
+`
+
+export const SquareTextBold = styled.span`
+    font-size:40px;
+    margin:2%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
     color:white;
 
 
