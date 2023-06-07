@@ -18,6 +18,10 @@ export const Background = styled.div`
             height: auto;
             padding-bottom: 0%;
         }
+        @media (min-width:380px) and (max-width:400px){
+            height: auto;
+            padding-bottom: 5%;
+        }
 `
 
 export const YellowMan = styled.img`

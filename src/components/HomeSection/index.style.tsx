@@ -28,6 +28,10 @@ export const BodyHome = styled.div`
         padding-top: 5%;
     }
 
+    @media (min-width:380px) and (max-width:400px) {
+        padding-bottom: 8%;
+    }
+
     @media (min-width:501px) and (max-width:900px) {
         justify-content:center;
         height: 768px;
