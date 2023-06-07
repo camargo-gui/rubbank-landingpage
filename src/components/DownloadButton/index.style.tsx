@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 const StyledButton = styled.button`
     background-color: #647CDF;
+    cursor: pointer;
     font-family: Roboto;
     font-size: 40px;
     color: white;

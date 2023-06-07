@@ -7,20 +7,21 @@ function Header() {
         <HeaderGeral>
             <LogoHeader src={logoRoxa}></LogoHeader>
             <HookGroup>
-                <Hook>Download</Hook>
-                <Link to="vantagens">
+                <Hook id="appstore">Download</Hook>
+                <Link to="vantagens" smooth={true}>
                     <Hook> Vantagens</Hook>
                 </Link>
-                <Link to="sobrenos">
+                <Link to="sobrenos" smooth={true}>
                     <Hook>Sobre nós</Hook>
                 </Link>
-                
             </HookGroup>
         </HeaderGeral >
-
-
-
     )
 }
 
+const link = document.getElementById("appstore")
+link?.addEventListener("click",redirecionar)
+function redirecionar(){
+    window.location.assign("https://www.apple.com/br/app-store/")
+}
 export default Header

@@ -78,6 +78,7 @@ export const Texto = styled.p`
 
 export const Botao = styled.div`
     background-color: #647CDF;
+    cursor: pointer;
     font-family: Roboto;
     font-size: 60px;
     color: white;

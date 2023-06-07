@@ -65,6 +65,7 @@ export const HookGroup = styled.div`
 `
 
 export const Hook = styled.p`
+        cursor: pointer;
         @media(min-width:800px){
             font-family: 'Open Sans';
             white-space: nowrap;
