@@ -100,6 +100,7 @@ export const Title = styled.div`
     }
 
     @media (min-width:380px) and (max-width:400px) {
+        margin-top: -2%;
         margin-left: -15%;
     }
 `

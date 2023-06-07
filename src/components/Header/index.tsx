@@ -2,6 +2,7 @@ import logoRoxa from "../../images/logoRoxa.png"
 import { HeaderGeral, Hook, HookGroup, LogoHeader } from "./index.style"
 import { Link, animateScroll as scroll } from 'react-scroll';
 
+
 function Header() {
     return (
         <HeaderGeral>
@@ -19,9 +20,5 @@ function Header() {
     )
 }
 
-const link = document.getElementById("appstore")
-link?.addEventListener("click",redirecionar)
-function redirecionar(){
-    window.location.assign("https://www.apple.com/br/app-store/")
-}
+
 export default Header
