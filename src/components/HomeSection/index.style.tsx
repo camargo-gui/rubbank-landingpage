@@ -93,12 +93,12 @@ export const Title = styled.div`
 
     @media(min-width:1000px) and (max-width:1100px){
         margin-top:5%;
-        margin-left:10%;
+        /* margin-left:10%; */
     }
 
     @media(min-width:1100px) and (max-width:1600px){
         margin-top:-2%;
-        margin-left:8%;
+        /* margin-left:8%; */
     }
 
     @media (min-width:2000px){
@@ -189,7 +189,7 @@ export const Subtitle = styled.p`
 
     margin-top: -13%;
     text-align: center;
-    margin-left: 15%;
+    //margin-left: 15%;
     width: 70%;
     color: white;
     font-weight: 400;
@@ -211,7 +211,7 @@ export const Subtitle = styled.p`
     @media (min-width:1000px) and (max-width:1100px) {
         margin-top: -8%;
         text-align: center;
-        margin-left: 15%;
+        /* margin-left: 15%; */
         width: 70%;
         color: white;
         font-weight: 400;

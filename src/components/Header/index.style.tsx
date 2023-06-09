@@ -39,6 +39,10 @@ export const HookGroup = styled.div`
 
  
 
+    @media (max-width:1100px){
+        font-size: 20px;
+        width: 35%;
+    }
 
     @media (max-width:800px) {
             margin-right: 10%;

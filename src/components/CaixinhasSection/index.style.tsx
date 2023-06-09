@@ -132,6 +132,10 @@ export const DivConteudo = styled.div`
         align-items: center;
         justify-content:center;
     }
+
+    @media (max-width:500px) {
+        margin-top: 0;
+    }
     
 
 
@@ -276,6 +280,6 @@ export const Checker = styled.img`
     position:absolute;
     z-index:1;
     margin-top:-0%;
-    margin-left:47%;
+    margin-left:44%;
     width:6%;
 `
