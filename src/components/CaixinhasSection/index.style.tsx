@@ -280,6 +280,10 @@ export const Checker = styled.img`
     position:absolute;
     z-index:1;
     margin-top:-0%;
-    margin-left:44%;
+    margin-left:47%;
     width:6%;
+
+    @media (min-width:1000px){
+        margin-left: 44%;
+    }
 `
