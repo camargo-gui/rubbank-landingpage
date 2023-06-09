@@ -27,7 +27,7 @@ export const Disponivel = styled.p`
     font-family: 'Inter';
     white-space: nowrap;
     @media (max-width:500px){
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
     @media (min-width:500px) and (max-width:700px){
         font-size: 1.25rem;
