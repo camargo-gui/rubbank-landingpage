@@ -13,14 +13,11 @@ export default function SobreNosSection() {
                 O Rubbank, é sobre você e sua satisfação.
                 Seja bem-vindo ao Rubbank -
                 seu banco para uma nova era financeira!</Texto>
-            <Botao id="appstore2">Baixe agora!</Botao>
+            <Botao onClick={redirecionar}>Baixe agora!</Botao>
         </Background>
     )
 }
 
-const link = document.getElementById("appstore2")
-link?.addEventListener("click",redirecionar)
-function redirecionar(){
-    window.location.assign("https://www.apple.com/br/app-store/")
+function redirecionar() {
+    window.open("https://www.apple.com/br/app-store/")
 }
-

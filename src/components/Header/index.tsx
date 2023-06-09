@@ -8,7 +8,7 @@ function Header() {
         <HeaderGeral>
             <LogoHeader src={logoRoxa}></LogoHeader>
             <HookGroup>
-                <Hook id="appstore">Download</Hook>
+                <Hook onClick={redirecionar}>Download</Hook>
                 <Link to="vantagens" smooth={true}>
                     <Hook> Vantagens</Hook>
                 </Link>
@@ -18,6 +18,10 @@ function Header() {
             </HookGroup>
         </HeaderGeral >
     )
+}
+
+function redirecionar() {
+    window.open("https://www.apple.com/br/app-store/")
 }
 
 
