@@ -44,6 +44,17 @@ export const PhoneCompleto = styled.div`
         margin-left:12% ;
         width: 20%;
     }
+
+    @media (min-width: 1200px) and (max-width: 1300px) {
+        margin-top: 8% !important;
+      }
+
+      @media (min-width:355px) and (max-width:365px){
+        margin-top: 34%;
+      }
+
+      
+  
 `
 
 export const PhoneImg = styled.img`
@@ -73,6 +84,10 @@ export const PhoneImg = styled.img`
     @media (min-width:2000px){
         margin-top:-20%;
         width:70%
+    }
+
+    @media (min-width:355px) and (max-width:365px){
+        width:155%;
     }
 `
 

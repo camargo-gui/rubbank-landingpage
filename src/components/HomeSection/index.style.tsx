@@ -37,6 +37,9 @@ export const BodyHome = styled.div`
         height: 768px;
     }
 
+    @media(min-width:355px) and (max-width:365px){
+        height: 540px;
+    }
  
 `
 
@@ -65,6 +68,8 @@ export const BodyTexts = styled.div`
         flex-direction: column;
         align-items: center;
     }
+
+   
 
 `
 
@@ -113,6 +118,11 @@ export const Title = styled.div`
         margin-top: -2%;
         margin-left: -15%;
     }
+
+    @media (min-width:355px) and (max-width:365px){
+        margin-top: -8%;
+        margin-left: -12%;
+    }
 `
 
 export const Rub = styled.h1`
@@ -146,6 +156,9 @@ export const Rub = styled.h1`
         font-size: 70px;
     }
 
+    @media (min-width:355px) and (max-width:365px){
+        font-size: 70px;
+    }
 
     
 
@@ -178,6 +191,10 @@ export const Bank = styled.h1`
     }
 
     @media (min-width:380px) and (max-width:400px) {
+        font-size: 70px;
+    }
+
+    @media (min-width:355px) and (max-width:365px){
         font-size: 70px;
     }
 
@@ -299,6 +316,11 @@ export const Icons = styled.div`
     @media (min-width:2000px){
         display:none;
     }
+
+    @media(min-width:355px) and (max-width:365px){
+        margin-left: 40%;
+    }
+    
 `
 
 export const Topic = styled.div`

@@ -19,6 +19,11 @@ export const Background = styled.div`
         object-fit: cover;
         object-position: 50%;
     }
+
+    @media(min-width:355px) and (max-width:365px){
+        padding-right: 8%;
+        padding-left: 8%;
+    }
   
 `
 
@@ -75,6 +80,14 @@ export const Texto = styled.p`
     @media (min-width:1900px) and (max-width:2090px){
         font-size:34px;
     }
+
+    @media (min-width: 1200px) and (max-width: 1300px) {
+        font-size: 24px;
+    }
+
+    @media(min-width:355px) and (max-width:365px){
+        font-size:16px;
+    }
 `
 
 export const Botao = styled.div`
@@ -104,5 +117,8 @@ export const Botao = styled.div`
     @media (max-width:350px){
         width:70%;
         font-size:30px;
+    }
+    @media (min-width: 1200px) and (max-width: 1300px) {
+        width: 40%;
     }
 `

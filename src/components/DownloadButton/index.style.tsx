@@ -82,6 +82,13 @@ const StyledButton = styled.button`
          margin-left: -35% !important; 
       }
  
+      @media (min-width: 1200px) and (max-width: 1300px) {
+        margin-top: -10% !important;
+      }
+  
+      @media(min-width:355px) and (max-width:365px){
+        margin-top: 105% !important;
+    }
 
 
 `

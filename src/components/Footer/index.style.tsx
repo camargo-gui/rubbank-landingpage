@@ -40,6 +40,11 @@ export const Disponivel = styled.p`
         font-size: 1.25rem;
     }
 
+    @media (min-width:1200px) and (max-width:1300px){
+        font-size: 1.5rem;
+    }
+    
+
 `
 
 export const Logo = styled.img`

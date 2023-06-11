@@ -65,6 +65,10 @@ export const YellowMan = styled.img`
         width:600px;
         margin-left:0%;
     }
+
+    @media (min-width: 1200px) and (max-width: 1300px) {
+        margin-right: 5%;
+    }
   
 `
 
@@ -89,6 +93,10 @@ export const Titulo = styled.span`
 
     @media (min-width:1900px) and (max-width:1990px){
         font-size:90px
+    }
+
+    @media(min-width:355px) and (max-width:365px){
+        font-size:48px;
     }
 `
 
@@ -136,7 +144,13 @@ export const DivConteudo = styled.div`
     @media (max-width:500px) {
         margin-top: 0;
     }
-    
+    @media (min-width: 1200px) and (max-width: 1300px) {
+       margin-left: 10%;
+    }
+
+    @media(min-width:355px) and (max-width:365px){
+        margin-top:5%;
+    }
 
 
 `
@@ -185,6 +199,16 @@ export const AboutCaixinhas = styled.p`
         margin-left:0%;
         margin-top:0%;
     }
+    @media (min-width: 1200px) and (max-width: 1300px) {
+        width:100%;
+        margin-left:0;
+        margin-top:12%;
+      }
+
+      @media(min-width:355px) and (max-width:365px){
+        font-size: 24px;
+    }
+  
 `
 
 export const Square = styled.div`
@@ -225,6 +249,15 @@ export const Square = styled.div`
         margin: 0 auto;
         padding: 1%;
     }
+
+    @media (min-width: 1200px) and (max-width: 1300px) {
+        width: 100%;
+        margin: 0;
+    }
+
+    @media(min-width:355px) and (max-width:365px){
+        padding:1%;
+    }
 `
 
 
@@ -249,6 +282,10 @@ export const SquareText = styled.p`
 
     @media (min-width:1900px) and (max-width:1990px){
         font-size:60px;
+    }
+
+    @media(min-width:355px) and (max-width:365px){
+        font-size:20px;
     }
 `
 
@@ -285,5 +322,10 @@ export const Checker = styled.img`
 
     @media (min-width:1000px){
         margin-left: 44%;
+    }
+
+    @media(min-width:355px) and (max-width:365px){
+        width: 15%;
+        margin-left: 42.5%;
     }
 `
