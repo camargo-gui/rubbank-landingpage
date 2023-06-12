@@ -73,7 +73,7 @@ export const Hook = styled.p`
         @media(min-width:800px){
             font-family: 'Open Sans';
             white-space: nowrap;
-            margin-right:5%;
+            margin-right:0%;
         }
 `
 
